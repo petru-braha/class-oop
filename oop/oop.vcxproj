@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +129,71 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="admin\px.cpp" />
+    <ClCompile Include="homework\H1\H1.cpp" />
+    <ClCompile Include="homework\H2\ex 1\H2_NumberList.cpp" />
+    <ClCompile Include="homework\H2\ex 2\H2_studentFct.cpp" />
+    <ClCompile Include="homework\H2\ex 2\H2_studentProps.cpp" />
+    <ClCompile Include="homework\H2\extra\H2_movie.cpp" />
+    <ClCompile Include="homework\H2\extra\H2_MovieSeries.cpp" />
+    <ClCompile Include="homework\H2\extra\H2_movies_comparison.cpp" />
+    <ClCompile Include="homework\H2\H2_main.cpp" />
+    <ClCompile Include="homework\H3\ex 1\H3_Math.cpp" />
+    <ClCompile Include="homework\H3\ex 2\H3_canvaDef.cpp" />
+    <ClCompile Include="homework\H3\H3_main.cpp" />
+    <ClCompile Include="homework\H4\ex 1\H4_sort.cpp" />
+    <ClCompile Include="homework\H4\H4_main.cpp" />
+    <ClCompile Include="homework\H5\ex 1\H5_number.cpp" />
+    <ClCompile Include="homework\H5\H5_main.cpp" />
+    <ClCompile Include="homework\H6\ex 1\bmw.cpp" />
+    <ClCompile Include="homework\H6\ex 1\car.cpp" />
+    <ClCompile Include="homework\H6\ex 1\circuit.cpp" />
+    <ClCompile Include="homework\H6\ex 1\fiat.cpp" />
+    <ClCompile Include="homework\H6\ex 1\rangerover.cpp" />
+    <ClCompile Include="homework\H6\ex 1\seat.cpp" />
+    <ClCompile Include="homework\H6\ex 1\volvo.cpp" />
+    <ClCompile Include="homework\H6\H6_main.cpp" />
+    <ClCompile Include="homework\H7\ex 2\H7_tree.cpp" />
+    <ClCompile Include="homework\H7\H7_main.cpp" />
+    <ClCompile Include="homework\H8\H8_main.cpp" />
+    <ClCompile Include="homework\H9\H9_main.cpp" />
+    <ClCompile Include="homework\H9\map.cpp" />
+    <ClCompile Include="lesson\ctor dtor.cpp" />
+    <ClCompile Include="lesson\derivations.cpp" />
+    <ClCompile Include="lesson\exemples.cpp" />
+    <ClCompile Include="lesson\inheritance.cpp" />
+    <ClCompile Include="lesson\pointers.cpp" />
+    <ClCompile Include="lesson\source_professor.cpp" />
+    <ClCompile Include="lesson\stl.cpp" />
+    <ClCompile Include="lesson\syntax_extern_1.cpp" />
+    <ClCompile Include="lesson\syntax_extern_2.cpp" />
     <ClCompile Include="oop.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="admin\calls to all demonstrations.h" />
+    <ClInclude Include="homework\H1\H1_lab_extra.h" />
+    <ClInclude Include="homework\H2\ex 1\H2_NumberList.h" />
+    <ClInclude Include="homework\H2\ex 2\H2_studentFct.h" />
+    <ClInclude Include="homework\H2\ex 2\H2_studentProps.h" />
+    <ClInclude Include="homework\H2\extra\H2_movie.h" />
+    <ClInclude Include="homework\H2\extra\H2_MovieSeries.h" />
+    <ClInclude Include="homework\H2\extra\H2_movies_comparison.h" />
+    <ClInclude Include="homework\H3\ex 1\H3_Math.h" />
+    <ClInclude Include="homework\H3\ex 2\H3_canva.h" />
+    <ClInclude Include="homework\H4\ex 1\H4_sort.h" />
+    <ClInclude Include="homework\H5\ex 1\H5_number.h" />
+    <ClInclude Include="homework\H6\ex 1\bmw.h" />
+    <ClInclude Include="homework\H6\ex 1\car.h" />
+    <ClInclude Include="homework\H6\ex 1\circuit.h" />
+    <ClInclude Include="homework\H6\ex 1\fiat.h" />
+    <ClInclude Include="homework\H6\ex 1\rangerover.h" />
+    <ClInclude Include="homework\H6\ex 1\seat.h" />
+    <ClInclude Include="homework\H6\ex 1\volvo.h" />
+    <ClInclude Include="homework\H6\ex 1\weather.h" />
+    <ClInclude Include="homework\H7\ex 1\H7_literals.h" />
+    <ClInclude Include="homework\H7\ex 2\H7_tree.h" />
+    <ClInclude Include="homework\H9\map.h" />
+    <ClInclude Include="lesson\random_class.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

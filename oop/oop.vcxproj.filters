@@ -18,5 +18,193 @@
     <ClCompile Include="oop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="admin\px.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H1\H1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H2\ex 1\H2_NumberList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H2\ex 2\H2_studentFct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H2\ex 2\H2_studentProps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H2\extra\H2_movie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H2\extra\H2_movies_comparison.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H2\extra\H2_MovieSeries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H2\H2_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H3\ex 1\H3_Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H3\ex 2\H3_canvaDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H3\H3_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H4\ex 1\H4_sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H4\H4_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H5\ex 1\H5_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H5\H5_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\ex 1\bmw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\ex 1\car.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\ex 1\circuit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\ex 1\fiat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\ex 1\rangerover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\ex 1\seat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\ex 1\volvo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\H6_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H7\ex 2\H7_tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H7\H7_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H8\H8_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H9\H9_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H9\map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\ctor dtor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\derivations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\exemples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\inheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\pointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\source_professor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\stl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\syntax_extern_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson\syntax_extern_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="admin\calls to all demonstrations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H1\H1_lab_extra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H2\ex 1\H2_NumberList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H2\ex 2\H2_studentFct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H2\ex 2\H2_studentProps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H2\extra\H2_movie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H2\extra\H2_movies_comparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H2\extra\H2_MovieSeries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H3\ex 1\H3_Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H3\ex 2\H3_canva.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H4\ex 1\H4_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H5\ex 1\H5_number.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H6\ex 1\bmw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H6\ex 1\car.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H6\ex 1\circuit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H6\ex 1\fiat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H6\ex 1\rangerover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H6\ex 1\seat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H6\ex 1\volvo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H6\ex 1\weather.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H7\ex 1\H7_literals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H7\ex 2\H7_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H9\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson\random_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
