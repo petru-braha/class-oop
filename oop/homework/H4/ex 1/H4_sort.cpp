@@ -49,7 +49,7 @@ Sort::Sort(const char s[100])
     k = 0;
     int i = 0;
     
-    int last_index = strlen(s), current_index = 0;
+    int last_index = (int)strlen(s), current_index = 0;
 
     while (i < last_index)
     {

@@ -1,4 +1,6 @@
 A:\learn\c\c oop\oop\admin\px.cpp;A:\learn\c\c oop\oop\x64\Debug\px.obj
+A:\learn\c\c oop\oop\homework\H10\H10_array.cpp;A:\learn\c\c oop\oop\x64\Debug\H10_array.obj
+A:\learn\c\c oop\oop\homework\H10\H10_main.cpp;A:\learn\c\c oop\oop\x64\Debug\H10_main.obj
 A:\learn\c\c oop\oop\homework\H1\H1.cpp;A:\learn\c\c oop\oop\x64\Debug\H1.obj
 A:\learn\c\c oop\oop\homework\H2\ex 1\H2_NumberList.cpp;A:\learn\c\c oop\oop\x64\Debug\H2_NumberList.obj
 A:\learn\c\c oop\oop\homework\H2\ex 2\H2_studentFct.cpp;A:\learn\c\c oop\oop\x64\Debug\H2_studentFct.obj
@@ -9,10 +11,12 @@ A:\learn\c\c oop\oop\homework\H2\extra\H2_movies_comparison.cpp;A:\learn\c\c oop
 A:\learn\c\c oop\oop\homework\H2\H2_main.cpp;A:\learn\c\c oop\oop\x64\Debug\H2_main.obj
 A:\learn\c\c oop\oop\homework\H3\ex 1\H3_Math.cpp;A:\learn\c\c oop\oop\x64\Debug\H3_Math.obj
 A:\learn\c\c oop\oop\homework\H3\ex 2\H3_canvaDef.cpp;A:\learn\c\c oop\oop\x64\Debug\H3_canvaDef.obj
+A:\learn\c\c oop\oop\homework\H3\extra\H3_canva_extra.cpp;A:\learn\c\c oop\oop\x64\Debug\H3_canva_extra.obj
 A:\learn\c\c oop\oop\homework\H3\H3_main.cpp;A:\learn\c\c oop\oop\x64\Debug\H3_main.obj
 A:\learn\c\c oop\oop\homework\H4\ex 1\H4_sort.cpp;A:\learn\c\c oop\oop\x64\Debug\H4_sort.obj
 A:\learn\c\c oop\oop\homework\H4\H4_main.cpp;A:\learn\c\c oop\oop\x64\Debug\H4_main.obj
 A:\learn\c\c oop\oop\homework\H5\ex 1\H5_number.cpp;A:\learn\c\c oop\oop\x64\Debug\H5_number.obj
+A:\learn\c\c oop\oop\homework\H5\extra\H5_complex_extra.cpp;A:\learn\c\c oop\oop\x64\Debug\H5_complex_extra.obj
 A:\learn\c\c oop\oop\homework\H5\H5_main.cpp;A:\learn\c\c oop\oop\x64\Debug\H5_main.obj
 A:\learn\c\c oop\oop\homework\H6\ex 1\bmw.cpp;A:\learn\c\c oop\oop\x64\Debug\bmw.obj
 A:\learn\c\c oop\oop\homework\H6\ex 1\car.cpp;A:\learn\c\c oop\oop\x64\Debug\car.obj
@@ -26,7 +30,8 @@ A:\learn\c\c oop\oop\homework\H7\ex 2\H7_tree.cpp;A:\learn\c\c oop\oop\x64\Debug
 A:\learn\c\c oop\oop\homework\H7\H7_main.cpp;A:\learn\c\c oop\oop\x64\Debug\H7_main.obj
 A:\learn\c\c oop\oop\homework\H8\H8_main.cpp;A:\learn\c\c oop\oop\x64\Debug\H8_main.obj
 A:\learn\c\c oop\oop\homework\H9\H9_main.cpp;A:\learn\c\c oop\oop\x64\Debug\H9_main.obj
-A:\learn\c\c oop\oop\homework\H9\map.cpp;A:\learn\c\c oop\oop\x64\Debug\map.obj
+A:\learn\c\c oop\oop\homework\H9\H9_map.cpp;A:\learn\c\c oop\oop\x64\Debug\H9_map.obj
+A:\learn\c\c oop\oop\homework\H9\map_iterator.cpp;A:\learn\c\c oop\oop\x64\Debug\map_iterator.obj
 A:\learn\c\c oop\oop\lesson\ctor dtor.cpp;A:\learn\c\c oop\oop\x64\Debug\ctor dtor.obj
 A:\learn\c\c oop\oop\lesson\derivations.cpp;A:\learn\c\c oop\oop\x64\Debug\derivations.obj
 A:\learn\c\c oop\oop\lesson\exemples.cpp;A:\learn\c\c oop\oop\x64\Debug\exemples.obj

@@ -102,7 +102,7 @@
     <ClCompile Include="homework\H9\H9_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="homework\H9\map.cpp">
+    <ClCompile Include="homework\H9\H9_map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="lesson\ctor dtor.cpp">
@@ -130,6 +130,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="lesson\syntax_extern_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H10\H10_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H10\H10_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H9\map_iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H3\extra\H3_canva_extra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H5\extra\H5_complex_extra.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -200,10 +215,19 @@
     <ClInclude Include="homework\H7\ex 2\H7_tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="homework\H9\map.h">
+    <ClInclude Include="homework\H9\H9_map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="lesson\random_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H10\H10_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H3\extra\H3_canva_extra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H5\extra\H5_complex_extra.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

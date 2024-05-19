@@ -8,6 +8,6 @@
 - an assignment, as H3, is a folder (subfolder of "homework").
 - H3 has child-folders, each one represents an exercise.
 - the files of a task are placed in child-folder of the folder-assignment.
-* no matter how many exercises are there, there will be one more file in the folder-assignment: name_of_the_homework_main.cpp (it introduces the "main" functions for every task of an assignment such that they can be called in the main function of oop_main.cpp)
+* no matter how many exercises are there, there will be one more file in the folder-assignment: `name_of_the_homework_main.cpp` (it introduces the "main" functions for every task of an assignment such that they can be called in the main function of oop_main.cpp)
 
 I'm looking for some feedback. Thank you.
