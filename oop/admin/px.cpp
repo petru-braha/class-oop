@@ -103,7 +103,8 @@ void call_homeworks()
 	caller();
 	
 	std::cout << "test anything else? (Y/N) ";
-	std::cin >> which_task;
-	if (which_task == 'Y')
+	char c = 0;
+	std::cin >> c;
+	if (c == 'Y')
 		goto again;
 }

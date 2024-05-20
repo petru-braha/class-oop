@@ -132,8 +132,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="admin\px.cpp" />
-    <ClCompile Include="homework\H10\H10_array.cpp" />
-    <ClCompile Include="homework\H10\H10_main.cpp" />
     <ClCompile Include="homework\H1\H1.cpp" />
     <ClCompile Include="homework\H2\ex 1\H2_NumberList.cpp" />
     <ClCompile Include="homework\H2\ex 2\H2_studentFct.cpp" />
@@ -165,6 +163,7 @@
     <ClCompile Include="homework\H9\H9_main.cpp" />
     <ClCompile Include="homework\H9\H9_map.cpp" />
     <ClCompile Include="homework\H9\map_iterator.cpp" />
+    <ClCompile Include="homework\HH10\H10_main.cpp" />
     <ClCompile Include="lesson\ctor dtor.cpp" />
     <ClCompile Include="lesson\derivations.cpp" />
     <ClCompile Include="lesson\exemples.cpp" />
@@ -203,6 +202,7 @@
     <ClInclude Include="homework\H7\ex 1\H7_literals.h" />
     <ClInclude Include="homework\H7\ex 2\H7_tree.h" />
     <ClInclude Include="homework\H9\H9_map.h" />
+    <ClInclude Include="homework\HH10\H10_array.h" />
     <ClInclude Include="lesson\random_class.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

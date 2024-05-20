@@ -132,12 +132,6 @@
     <ClCompile Include="lesson\syntax_extern_2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="homework\H10\H10_main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="homework\H10\H10_array.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="homework\H9\map_iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -145,6 +139,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="homework\H5\extra\H5_complex_extra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\HH10\H10_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -228,6 +225,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="homework\H5\extra\H5_complex_extra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\HH10\H10_array.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
