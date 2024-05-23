@@ -11,3 +11,6 @@
 * no matter how many exercises are there, there will be one more file in the folder-assignment: `name_of_the_homework_main.cpp` (it introduces the "main" functions for every task of an assignment such that they can be called in the main function of oop_main.cpp)
 
 I'm looking for some feedback. Thank you.
+
+# NOTE: HH11 is a separated project in its specific directory
+(can't be called by the main cpp/sln)

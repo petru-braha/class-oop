@@ -1,0 +1,3 @@
+﻿  test.cpp
+A:\learn\c\c oop\oop\homework\HH11\dani_code\dani_code\dani_code.h(25,68): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  dani_code.vcxproj -> A:\learn\c\c oop\oop\homework\HH11\dani_code\x64\Debug\dani_code.exe
