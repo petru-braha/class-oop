@@ -1,2 +1,3 @@
-﻿  LINK : A:\learn\c\c oop\x64\Debug\oop.exe not found or not built by the last incremental link; performing full link
+﻿  Scanning sources for module dependencies...
+  H6_classes_extra.cpp
   oop.vcxproj -> A:\learn\c\c oop\x64\Debug\oop.exe

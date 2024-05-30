@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\H6_classes_extra.h.obj",
+            "outputs": [
+                "A:\\learn\\c\\c oop\\oop\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "A:\\learn\\c\\c oop\\oop\\x64\\Debug\\H6_classes_extra.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "homework\\H6\\extra\\H6_classes_extra.h",
+                    "source-path": "a:\\learn\\c\\c oop\\oop\\homework\\h6\\extra\\h6_classes_extra.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

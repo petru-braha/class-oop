@@ -1,5 +1,4 @@
 #pragma once
-
 #include <ostream>
 
 class Complex 
@@ -9,6 +8,7 @@ class Complex
 public:
     Complex();
     Complex(double real, double imag);
+    Complex(const Complex& temp);
 
     bool is_real() const;
 
@@ -17,6 +17,14 @@ public:
     double abs() const;
     Complex conjugate() const;
 
+    Complex& operator =(const Complex& temp);
+    
+    // op++ postfixed MUST use op++ prefixed
+    // op-- postfixed MUST use op-- prefixed
+    Complex& operator++();
+    Complex  operator++(int);
+    Complex& operator--();
+    Complex  operator--(int);
     Complex& operator()(double real, double imag);
 };
 
@@ -35,5 +43,6 @@ Complex operator*(double r, const Complex& obj2);
 Complex operator-(const Complex& obj2);
 
 bool operator==(const Complex& l, const Complex& r);
+bool operator!=(const Complex& l, const Complex& r);
 
 std::ostream& operator<<(std::ostream& out, const Complex& complex);

@@ -9,11 +9,11 @@ typedef unsigned long long nat;
 
 TEST(array, multiple_objects)
 {
-	std::initializer_list<int> numbers{1, 2, 3, 4};
+	std::initializer_list<int> numbers{ 1, 2, 3, 4 };
 	StaticVector<int> all_numbers(numbers);
-	
+
 	ASSERT_TRUE(numbers.size() > 1);
-	
+
 	lng i = 0;
 	for (const auto& elem : numbers)
 	{
@@ -30,21 +30,21 @@ TEST(array, correct_size)
 	ASSERT_TRUE(alphabet.get_size() == letters.size());
 }
 
+TEST(array, negative_numbers)
+{
+	StaticVector<long long int> Z(std::initializer_list<long long int>{1, INT_MIN, CHAR_MAX, LLONG_MAX, 0, LLONG_MIN});
+
+	ASSERT_NO_THROW(Z.mergeSort());
+	for (lng i = 1; i < Z.get_size(); i++)
+		ASSERT_TRUE(Z[i - 1] < Z[i]);
+}
+
 TEST(array, large_numbers)
 {
 	StaticVector<nat> R(std::initializer_list<nat>{ INT_MAX, CHAR_MAX, LLONG_MAX, 0, ULLONG_MAX, ULLONG_MAX - 1, ULLONG_MAX });
 	ASSERT_NO_THROW(R.mergeSort());
 	for (lng i = 1; i < R.get_size(); i++)
 		ASSERT_TRUE(R[i - 1] < R[i]);
-}
-
-TEST(array, negative_numbers)
-{
-	StaticVector<long long int> Z(std::initializer_list<long long int>{1, INT_MIN, CHAR_MAX, LLONG_MAX, 0, LLONG_MIN});
-	
-	ASSERT_NO_THROW(Z.mergeSort());
-	for (lng i = 1; i < Z.get_size(); i++)
-		ASSERT_TRUE(Z[i - 1] < Z[i]);
 }
 
 TEST(array, sort_casual)
@@ -84,7 +84,7 @@ TEST(array, out_of_bounds)
 
 TEST(array, sort_null)
 {
-	StaticVector<char*> letters(std::initializer_list<char*>{ nullptr, nullptr , nullptr });
+	StaticVector<char*> letters(std::initializer_list<char*>{ nullptr, nullptr, nullptr });
 	ASSERT_NO_THROW(letters.mergeSort());
 	for (lng i = 1; i < letters.get_size(); i++)
 		ASSERT_TRUE(letters[i - 1] == letters[i]);
@@ -96,7 +96,7 @@ TEST(array, sort_null)
 
 TEST(array, sort_same_element)
 {
-	std::initializer_list<float> one{1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, };
+	std::initializer_list<float> one{ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, };
 	StaticVector<float> two_one(one);
 	ASSERT_NO_THROW(two_one.mergeSort());
 

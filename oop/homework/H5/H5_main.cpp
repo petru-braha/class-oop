@@ -35,7 +35,7 @@ int H5_number_main()
     return 0;
 }
 
-#include <iostream>p
+#include <iostream>
 #include <cmath>
 #include "extra/H5_complex_extra.h" //#include "complex.h"
 
@@ -43,30 +43,28 @@ bool double_equals(double l, double r) {
     return abs(l - r) < 0.001;
 }
 
-#define check(x)\
-    if (!(x)) { \
+#define check(x)    \
+    if (!(x)) {     \
         printf("at line #%d -> `%s` is not satisfied\n", __LINE__, #x); \
-        return 1;                                                       \
     }
 
 void H5_complex_extra_main() 
 {
-    /*
     Complex a{ 1, 2 };
     check(double_equals(a.real(), 1));
     check(double_equals(a.imag(), 2));
-
+    
     Complex b{ 2, 3 };
     Complex c = a + b;
     check(double_equals(c.real(), 3));
     check(double_equals(c.imag(), 5));
-
+    
     Complex d = c - a;
     check(b == d);
-
+    
     Complex e = (a * d).conjugate();
     check(double_equals(e.imag(), -7));
-
+    
     {
         // increment the real part
         Complex res1 = e++;
@@ -75,7 +73,7 @@ void H5_complex_extra_main()
         check(res2 == e);
         check(double_equals(e.real(), -2));
     }
-
+    
     {
         // decrement the real part
         Complex res1 = e--;
@@ -84,7 +82,7 @@ void H5_complex_extra_main()
         check(res2 == e);
         check(double_equals(e.real(), -4));
     }
-
+    
     Complex f = (a + b - d) * c;
     if (f != Complex{ 1, 2 }) {
         // prints in the format a +/i bi
@@ -101,7 +99,7 @@ void H5_complex_extra_main()
             << Complex{ 7, 0 } << '\n'
             << Complex{ 0, 0 } << '\n';
     }
-
+    
     // op() will update the real part and the imaginary part
     // it will behave as a setter for both
     Complex g = f(-1, -2)(-2, -3)(-4, -5);
@@ -114,5 +112,4 @@ void H5_complex_extra_main()
     // unary op-
     Complex j = -i + i;
     check(double_equals(j.abs(), 0));
-    */
 }

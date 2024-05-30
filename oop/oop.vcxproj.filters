@@ -147,6 +147,15 @@
     <ClCompile Include="homework\HH11\petru_code\petru_correct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="homework\HH12\HH12_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\extra\H6_classes_extra.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\H6\extra\H6_classes_extra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="admin\calls to all demonstrations.h">
@@ -234,6 +243,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="homework\HH11\petru_code\petru_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework\H7\extra\H7_vector_extra.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -34,10 +34,12 @@ void print_functions()
 		break;
 	case 6:
 		std::cout << "index '11': H6_cars_main\n";
+		std::cout << "index '53': H6_extra_main\n";
 		break;
 	case 7:
 		std::cout << "index '12': H7_literals_main\n";
 		std::cout << "index '13': H7_tree_main\n";
+		std::cout << "index '52': H7_vector_extra_main\n";
 		break;
 	case 8:
 		std::cout << "index '14': H8_string_main\n";
@@ -79,6 +81,8 @@ void caller()
 	
 	case 50: H3_canva_extra_main(); break;
 	case 51: H5_complex_extra_main(); break;
+	case 52: H7_vector_extra_main(); break;
+	case 53: H6_extra_main(); break;
 
 	default:
 		std::cout << "error: no function called.\n";

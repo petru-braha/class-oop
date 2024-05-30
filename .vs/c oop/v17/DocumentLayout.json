@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "A:\\learn\\c\\c oop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{72782B95-2A64-40F0-9BB3-D19E5D2B994F}|oop\\oop.vcxproj|A:\\learn\\c\\c oop\\oop\\homework\\H6\\extra\\H6_classes_extra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72782B95-2A64-40F0-9BB3-D19E5D2B994F}|oop\\oop.vcxproj|solutionrelative:oop\\homework\\H6\\extra\\H6_classes_extra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72782B95-2A64-40F0-9BB3-D19E5D2B994F}|oop\\oop.vcxproj|A:\\learn\\c\\c oop\\oop\\homework\\H6\\extra\\H6_classes_extra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72782B95-2A64-40F0-9BB3-D19E5D2B994F}|oop\\oop.vcxproj|solutionrelative:oop\\homework\\H6\\extra\\H6_classes_extra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72782B95-2A64-40F0-9BB3-D19E5D2B994F}|oop\\oop.vcxproj|A:\\learn\\c\\c oop\\oop\\homework\\H6\\H6_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72782B95-2A64-40F0-9BB3-D19E5D2B994F}|oop\\oop.vcxproj|solutionrelative:oop\\homework\\H6\\H6_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{72782B95-2A64-40F0-9BB3-D19E5D2B994F}|oop\\oop.vcxproj|A:\\learn\\c\\c oop\\oop\\oop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72782B95-2A64-40F0-9BB3-D19E5D2B994F}|oop\\oop.vcxproj|solutionrelative:oop\\oop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -13,20 +25,65 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 233,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "H6_classes_extra.h",
+              "DocumentMoniker": "A:\\learn\\c\\c oop\\oop\\homework\\H6\\extra\\H6_classes_extra.h",
+              "RelativeDocumentMoniker": "oop\\homework\\H6\\extra\\H6_classes_extra.h",
+              "ToolTip": "A:\\learn\\c\\c oop\\oop\\homework\\H6\\extra\\H6_classes_extra.h",
+              "RelativeToolTip": "oop\\homework\\H6\\extra\\H6_classes_extra.h",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-30T11:30:37.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "H6_classes_extra.cpp",
+              "DocumentMoniker": "A:\\learn\\c\\c oop\\oop\\homework\\H6\\extra\\H6_classes_extra.cpp",
+              "RelativeDocumentMoniker": "oop\\homework\\H6\\extra\\H6_classes_extra.cpp",
+              "ToolTip": "A:\\learn\\c\\c oop\\oop\\homework\\H6\\extra\\H6_classes_extra.cpp",
+              "RelativeToolTip": "oop\\homework\\H6\\extra\\H6_classes_extra.cpp",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAiwHUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-30T11:47:15.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "oop.cpp",
               "DocumentMoniker": "A:\\learn\\c\\c oop\\oop\\oop.cpp",
               "RelativeDocumentMoniker": "oop\\oop.cpp",
               "ToolTip": "A:\\learn\\c\\c oop\\oop\\oop.cpp",
               "RelativeToolTip": "oop\\oop.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-23T15:48:32.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 167,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "H6_main.cpp",
+              "DocumentMoniker": "A:\\learn\\c\\c oop\\oop\\homework\\H6\\H6_main.cpp",
+              "RelativeDocumentMoniker": "oop\\homework\\H6\\H6_main.cpp",
+              "ToolTip": "A:\\learn\\c\\c oop\\oop\\homework\\H6\\H6_main.cpp",
+              "RelativeToolTip": "oop\\homework\\H6\\H6_main.cpp",
+              "ViewState": "AQIAACwAAAAAAAAAAAAiwDcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-30T11:29:09.803Z",
               "EditorCaption": ""
             }
           ]

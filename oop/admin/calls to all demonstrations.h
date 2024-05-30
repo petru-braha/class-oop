@@ -23,10 +23,12 @@ void H5_complex_extra_main();
 
 //lab 6
 int H6_cars_main();
+int H6_extra_main();
 
 //lab 7
 void H7_literals_main();
 void H7_tree_main();
+int H7_vector_extra_main();
 
 //lab 8
 void H8_string_main();
