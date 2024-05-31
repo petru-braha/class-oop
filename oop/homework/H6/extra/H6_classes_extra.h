@@ -3,6 +3,7 @@
 
 class JsonValue {
 public:
+    bool container = false;
     virtual ~JsonValue() = 0;
 
     virtual void print(std::ostream& out, int identation = 0) const = 0;
@@ -63,7 +64,7 @@ class ObjectValue : public JsonValue
     size_t size;
 
 public:
-    ObjectValue() { size = 0; }
+    ObjectValue() { container = true; size = 0; }
     
     void add(const char* name, JsonValue* pointer_element);
     void print(std::ostream& out, int identation)const;
@@ -72,4 +73,6 @@ public:
     ~ObjectValue();
 }; 
 
+// name of the file should not have " " characters.
+// the output file will be placed in the same directory where "homework" can be found.
 std::ostream& standard_VS_file();

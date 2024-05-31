@@ -1,3 +1,9 @@
 ﻿  Scanning sources for module dependencies...
+  H6_classes_extra.h
+  Compiling...
+  H6_classes_extra.h
+  H6_main.cpp
   H6_classes_extra.cpp
+  oop.cpp
+  Generating Code...
   oop.vcxproj -> A:\learn\c\c oop\x64\Debug\oop.exe

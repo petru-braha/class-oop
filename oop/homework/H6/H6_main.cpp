@@ -52,7 +52,8 @@ int H6_extra_main() {
     std::cout << "Top node has " << (unsigned)*object << " subnodes\n";
     
     // the command line added: 
-    object->print(standard_VS_file(), 0);
+    std::ostream& where_to_print = standard_VS_file();
+    object->print(where_to_print, 0); // please check out the header for correct usage
     delete object;
     return 0;
 }
