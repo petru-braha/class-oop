@@ -22,9 +22,8 @@ struct compare
 {
 	bool operator() (std::map<std::string, int>::iterator s1, std::map<std::string, int>::iterator s2)
 	{
-		if (s1->second < s2->second) return true;
-		if (s1->second > s2->second) return false;
-		if (s1->first < s2->first) return false;
+		if (s1->second >= s2->second) 
+			return false;
 		return true;
 	}
 };
