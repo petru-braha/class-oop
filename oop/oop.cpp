@@ -6,8 +6,7 @@ int main()
     return 0;
 }
 
-
-// TO DO: review lab 8, lab 10, lab 12
+// TO DO: review lab 10, lab11, lab 12
 
 // question about HH11 !! 
 // the code with exceptions??

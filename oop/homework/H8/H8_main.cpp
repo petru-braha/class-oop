@@ -3,6 +3,8 @@
 #include <string>
 #include <iostream>
 #include <stdio.h>
+#include <cstring>
+#include <fstream>
 
 bool is_separator(char c)
 {
@@ -29,31 +31,26 @@ struct compare
 
 void H8_string_main()
 {
-	FILE* input = fopen("ex 1/input.txt", "r");
-	if (input == nullptr)
-	{
-		std::cout << "error - file openning: input text not available.\n";
-		return;
-	}
-
+	std::ifstream input("homework/H8/input.txt");
+	
 	std::string text = "";
+	std::getline(input, text);
+	
 	std::map<std::string, int> words;
-
-	//read
-	char character = 0;
-	while ((character = fgetc(input)) != EOF)
-		text += character;
-
+	
 	// split and map (case-insensitive)
 	int index_text = 0;
 	std::string word = "";
 
 	while (text[index_text])
 	{
-		if (is_separator(text[index_text]) && word != "")
+		if (is_separator(text[index_text]))
 		{
-			words[lower_case(word)]++;
-			word = "";
+			if (word != "")
+			{
+				words[lower_case(word)]++;
+				word = "";
+			}
 		}
 
 		else word += text[index_text];
@@ -76,5 +73,5 @@ void H8_string_main()
 		p.pop();
 	}
 
-	fclose(input);
+	input.close();
 }
