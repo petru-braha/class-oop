@@ -176,6 +176,7 @@
     <ClCompile Include="homework\HH12\HH12_main.cpp" />
     <ClCompile Include="lesson\ctor dtor.cpp" />
     <ClCompile Include="lesson\derivations.cpp" />
+    <ClCompile Include="lesson\exceptions.cpp" />
     <ClCompile Include="lesson\exemples.cpp" />
     <ClCompile Include="lesson\inheritance.cpp" />
     <ClCompile Include="lesson\pointers.cpp" />

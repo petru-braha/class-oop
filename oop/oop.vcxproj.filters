@@ -156,6 +156,9 @@
     <ClCompile Include="homework\H6\extra\H6_classes_extra.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lesson\exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="admin\calls to all demonstrations.h">
